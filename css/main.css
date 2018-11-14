@@ -1,0 +1,30 @@
+ul {
+	list-style-type:none;
+	text-align: center;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin: 10px;
+	background-color: black;
+
+}
+
+img {
+	height: 500px;
+	width: 400px;
+}
+
+#content {
+	height: 200px;
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+	transform: translateX(40px);
+	opacity: 0;
+	
+}
+.slide-fade-enter-active, .slide-fade-leave-active {
+	transition: 0.2s ease;
+}
